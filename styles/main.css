@@ -1,0 +1,429 @@
+@charset "UTF-8";
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import url(https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;500&display=swap);
+header {
+  background-color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+header .logo {
+  width: 100%;
+}
+
+header .logo img {
+  border-radius: 80px;
+}
+
+header .links nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+header .links nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: grey;
+  width: 400px;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+header .links nav a:hover {
+  border-radius: 20px;
+  border: 3px solid grey;
+  background-color: orange;
+  font-weight: bold;
+}
+
+/*Baigėsi Meniu baras*/
+main {
+  /*Hero dalis*/
+  /*Hero dalis baigėsi*/
+  /*About dalis prasidėjo*/
+  /*About dalis pasibaigė*/
+}
+
+main .hero_video {
+  width: 100%;
+  position: relative;
+  height: 80vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .hero_video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+main .hero_video .hero_text {
+  z-index: 10;
+  background-color: orange;
+  height: 240px;
+  width: 98%;
+  text-align: center;
+  border-radius: 20px;
+  opacity: 0.8;
+  color: white;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 40px;
+}
+
+main .main_about {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .about1 {
+  height: 100vh;
+  min-width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 1fr;
+      grid-template-columns: 200px 1fr;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2 1fr);
+  background-color: orange;
+}
+
+main .about1 .text1 {
+  background-color: orange;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  -ms-grid-row: 1;
+  grid-row: 1/1;
+  -ms-grid-columns: 1/1;
+      grid-template-columns: 1/1;
+  width: 100%;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .about1 .text1 h2 {
+  text-align: center;
+}
+
+main .about1 .text1 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+main .about1 .text1 button {
+  width: 180px;
+  background-color: grey;
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+
+main .about1 .text1 button:hover {
+  border-radius: 20px;
+  border: 3px solid grey;
+  background-color: orange;
+  font-weight: bold;
+}
+
+main .about1 .img1 {
+  background-color: grey;
+  -ms-grid-row: 1;
+  grid-row: 1/1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  width: 100%;
+  background-image: url(../img/moto1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main .about1 .text2 {
+  width: 100%;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  background-color: orange;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  width: 100%;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .about1 .text2 h2 {
+  text-align: center;
+}
+
+main .about1 .text2 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+main .about1 .text2 button {
+  width: 180px;
+  background-color: grey;
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+
+main .about1 .text2 button:hover {
+  border-radius: 20px;
+  border: 3px solid grey;
+  background-color: orange;
+  font-weight: bold;
+}
+
+main .about1 .img2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  width: 100%;
+  background-image: url(../img/moto2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main .about2 {
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 200px;
+      grid-template-columns: 1fr 200px;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2 1fr);
+}
+
+main .about2 .img3 {
+  -ms-grid-row: 1;
+  grid-row: 1/1;
+  -ms-grid-column: 1;
+  grid-column: 1/1;
+  background-image: url(../img/moto3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main .about2 .text3 {
+  -ms-grid-row: 1;
+  grid-row: 1/1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  background-color: orange;
+  width: 100%;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+main .about2 .text3 h2 {
+  text-align: center;
+}
+
+main .about2 .text3 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+main .about2 .text3 button {
+  width: 180px;
+  background-color: grey;
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+
+main .about2 .text3 button:hover {
+  border-radius: 20px;
+  border: 3px solid grey;
+  background-color: orange;
+  font-weight: bold;
+}
+
+main .about2 .img4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  background-image: url(../img/moto4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main .about2 .text4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  background-color: orange;
+  width: 100%;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+main .about2 .text4 h2 {
+  text-align: center;
+}
+
+main .about2 .text4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+main .about2 .text4 button {
+  width: 180px;
+  background-color: grey;
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+
+main .about2 .text4 button:hover {
+  border-radius: 20px;
+  border: 3px solid grey;
+  background-color: orange;
+  font-weight: bold;
+}
+
+/*Main dalis pasibaigė*/
+/*Footer pradžia*/
+footer {
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  background-color: orange;
+}
+
+footer p {
+  background-color: grey;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=main.css.map */
