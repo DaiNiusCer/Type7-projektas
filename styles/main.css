@@ -58,8 +58,6 @@ header .links nav a:hover {
 /*Baigėsi Meniu baras*/
 main {
   /*Hero dalis*/
-  /*Hero dalis baigėsi*/
-  /*About dalis prasidėjo*/
   /*About dalis pasibaigė*/
 }
 
@@ -116,9 +114,11 @@ main .main_about {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  /*Hero dalis baigėsi*/
+  /*About dalis prasidėjo*/
 }
 
-main .about1 {
+main .main_about .about1 {
   height: 100vh;
   min-width: 100%;
   display: -ms-grid;
@@ -130,7 +130,7 @@ main .about1 {
   background-color: orange;
 }
 
-main .about1 .text1 {
+main .main_about .about1 .text1 {
   background-color: orange;
   font-family: "Yanone Kaffeesatz", sans-serif;
   -ms-grid-row: 1;
@@ -154,16 +154,16 @@ main .about1 .text1 {
           justify-content: center;
 }
 
-main .about1 .text1 h2 {
+main .main_about .about1 .text1 h2 {
   text-align: center;
 }
 
-main .about1 .text1 p {
+main .main_about .about1 .text1 p {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-main .about1 .text1 button {
+main .main_about .about1 .text1 button {
   width: 180px;
   background-color: grey;
   color: white;
@@ -171,14 +171,14 @@ main .about1 .text1 button {
   border: none;
 }
 
-main .about1 .text1 button:hover {
+main .main_about .about1 .text1 button:hover {
   border-radius: 20px;
   border: 3px solid grey;
   background-color: orange;
   font-weight: bold;
 }
 
-main .about1 .img1 {
+main .main_about .about1 .img1 {
   background-color: grey;
   -ms-grid-row: 1;
   grid-row: 1/1;
@@ -192,7 +192,7 @@ main .about1 .img1 {
   background-position: center;
 }
 
-main .about1 .text2 {
+main .main_about .about1 .text2 {
   width: 100%;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
@@ -219,16 +219,16 @@ main .about1 .text2 {
           justify-content: center;
 }
 
-main .about1 .text2 h2 {
+main .main_about .about1 .text2 h2 {
   text-align: center;
 }
 
-main .about1 .text2 p {
+main .main_about .about1 .text2 p {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-main .about1 .text2 button {
+main .main_about .about1 .text2 button {
   width: 180px;
   background-color: grey;
   color: white;
@@ -236,14 +236,14 @@ main .about1 .text2 button {
   border: none;
 }
 
-main .about1 .text2 button:hover {
+main .main_about .about1 .text2 button:hover {
   border-radius: 20px;
   border: 3px solid grey;
   background-color: orange;
   font-weight: bold;
 }
 
-main .about1 .img2 {
+main .main_about .about1 .img2 {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
@@ -257,7 +257,7 @@ main .about1 .img2 {
   background-position: center;
 }
 
-main .about2 {
+main .main_about .about2 {
   height: 100vh;
   width: 100%;
   display: -ms-grid;
@@ -268,7 +268,7 @@ main .about2 {
       grid-template-rows: repeat(2 1fr);
 }
 
-main .about2 .img3 {
+main .main_about .about2 .img3 {
   -ms-grid-row: 1;
   grid-row: 1/1;
   -ms-grid-column: 1;
@@ -279,7 +279,7 @@ main .about2 .img3 {
   background-position: center;
 }
 
-main .about2 .text3 {
+main .main_about .about2 .text3 {
   -ms-grid-row: 1;
   grid-row: 1/1;
   -ms-grid-column: 2;
@@ -304,16 +304,16 @@ main .about2 .text3 {
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
-main .about2 .text3 h2 {
+main .main_about .about2 .text3 h2 {
   text-align: center;
 }
 
-main .about2 .text3 p {
+main .main_about .about2 .text3 p {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-main .about2 .text3 button {
+main .main_about .about2 .text3 button {
   width: 180px;
   background-color: grey;
   color: white;
@@ -321,14 +321,14 @@ main .about2 .text3 button {
   border: none;
 }
 
-main .about2 .text3 button:hover {
+main .main_about .about2 .text3 button:hover {
   border-radius: 20px;
   border: 3px solid grey;
   background-color: orange;
   font-weight: bold;
 }
 
-main .about2 .img4 {
+main .main_about .about2 .img4 {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
@@ -341,7 +341,7 @@ main .about2 .img4 {
   background-position: center;
 }
 
-main .about2 .text4 {
+main .main_about .about2 .text4 {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
@@ -367,16 +367,16 @@ main .about2 .text4 {
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
-main .about2 .text4 h2 {
+main .main_about .about2 .text4 h2 {
   text-align: center;
 }
 
-main .about2 .text4 p {
+main .main_about .about2 .text4 p {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-main .about2 .text4 button {
+main .main_about .about2 .text4 button {
   width: 180px;
   background-color: grey;
   color: white;
@@ -384,7 +384,7 @@ main .about2 .text4 button {
   border: none;
 }
 
-main .about2 .text4 button:hover {
+main .main_about .about2 .text4 button:hover {
   border-radius: 20px;
   border: 3px solid grey;
   background-color: orange;
@@ -446,5 +446,72 @@ footer p {
     width: 100%;
   }
   /*Meniu baras pabaiga*/
+  /* About dalis prasidėjo*/
+  .main_about {
+    /*About 2 pradžia*/
+    /*About 2 pabaiga*/
+  }
+  .main_about .about1 {
+    height: 100vh;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[10];
+        grid-template-columns: repeat(10 1fr);
+    -ms-grid-rows: (1fr)[10];
+        grid-template-rows: repeat(10 1fr);
+  }
+  .main_about .about1 .text1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    grid-row: 1/11;
+    -ms-grid-columns: 1/3;
+        grid-template-columns: 1/3;
+    width: 100%;
+  }
+  .main_about .img2 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    grid-row: 1/11;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
+    grid-column: 3/6;
+    width: 50%;
+  }
+  .main_about .about2 {
+    height: 100vh;
+    width: 100%;
+  }
+  .main_about .about2 .img3 {
+    -ms-grid-row: 1;
+    grid-row: 1/1;
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+  }
+  .main_about .about2 .text3 {
+    -ms-grid-row: 1;
+    grid-row: 1/1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .main_about .about2 .img4 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+  .main_about .about2 .text4 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
 }
+
+/*About dalis pasibaigė*/
 /*# sourceMappingURL=main.css.map */
