@@ -16,14 +16,6 @@ header {
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
-header .logo {
-  width: 100%;
-}
-
-header .logo img {
-  border-radius: 80px;
-}
-
 header .links nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -402,7 +394,7 @@ main .about2 .text4 button:hover {
 /*Main dalis pasibaigė*/
 /*Footer pradžia*/
 footer {
-  height: 100px;
+  height: 60px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -425,5 +417,34 @@ footer p {
   padding: 15px;
   color: white;
   margin-top: 50px;
+}
+
+/*Tablet verija*/
+@media (min-width: 768px) {
+  /*Meniu baras*/
+  header .logo {
+    width: 100%;
+  }
+  header .logo img {
+    border-radius: 80px;
+  }
+  header .links {
+    width: 95%;
+  }
+  header .links nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  header .links nav a {
+    width: 100%;
+  }
+  /*Meniu baras pabaiga*/
 }
 /*# sourceMappingURL=main.css.map */
